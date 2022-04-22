@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <link rel="stylesheet" href="style.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title
+        >Document</title
+                
+</head>
+<body>
+        <h1 id="title">tell me about yourself</h1>
+        <p id="description">
+        this is a survey form where you can tell us more about yourself. 
+        </p>
+        <form id="survey-form">
+              <label id="name-label"> Name:</label>
+                <input type="text"  name="name" id="name" required placeholder="please Enter your name"
+                style="width: 100%;"><br><br>
+               
+              <label id="Email-label"> Email:</label>
+                <input type="Email" name="Email" id="Email" required placeholder="please Enter your Email"
+                style="width: 100%;"><br><br>
+
+              <label id="number-label">Number: </label> 
+              <input type="number" name="number" id="number" min="0" max="10" required placeholder=" number"
+              style="width: 100%;" ><br><br>
+            
+              <label id="language-label">Languages: </label> 
+               <select id="dropdown" name="languages" style="width: 100%;">
+                       <option value="programmin">Java</option>
+                       <option value="programmin">C++</option>
+                       <option value="programmin">python</option>
+                       <option value="programmin">javascript</option>
+               </select><br><br>
+
+                
+               <div id="button-area">
+                <label id="gender-label">Gender: </label>
+               <input type="radio" class="radio-inline" name="gender" value="male">male<br>
+               <input type="radio" class="radio-inline" name="gender" value="female">female<br>
+               <input type="radio" class="radio-inline" name="gender" value="other">other
+               </div>
+               <div id="button-area">
+                <label id="music-label">favorite music: </label>
+              <input type="checkbox" name="other" value="some1">pop<br>
+               <input type="checkbox" name="other" value="some1">rup<br>
+               <input type="checkbox" name="other" value="some1">classic<br>
+               </div>
+               <textarea name="text" id="area" style="width: 100%;" 
+                placeholder="additional comments"></textarea><br>
+        
+               <input type="submit" id="submit" style="width: 100%;"><br>
+        </form>
+        <script type="text/javascript"></script>     
+</body>
+</html>
